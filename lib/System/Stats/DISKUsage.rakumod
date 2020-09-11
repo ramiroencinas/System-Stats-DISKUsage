@@ -73,10 +73,10 @@ sub shot_linux( @drives ) {
 sub supported_linux_kernel ( ) {
 
 	# Checks the minimum Kernel version supported (2.6+)
-	my $rel = $*KERNEL.release ~~ /^$<ver>=\d+\.$<maj>=\d+/ or fail 'Cannot parse current Kernel release';
+	
+	my $rel = $*KERNEL.release ~~ /^$<ver>=\d+\.\d+/ or fail 'Cannot parse current Kernel release';
 
-	return True if $rel<ver> >= 2 && $rel<maj> >= 6;
-
+        return True if $rel<ver>.Int >= 2.6;
 	return False;
 
 }
