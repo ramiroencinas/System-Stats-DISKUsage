@@ -4,7 +4,7 @@
 	"name"                    : "System::Stats::DISKUsage",
     "version"                 : "1.0.0",
     "provides"                : {
-    "System::Stats::NETUsage" : "lib/System/Stats/DISKUsage.rakumod"},
+    "System::Stats::DISKUsage" : "lib/System/Stats/DISKUsage.rakumod"},
     "description"             : "Provides Disk Usage Stats",
     "authors"                 : ["Ramiro Encinas Alarza"],
     "tags"                    : ["system","utils","filesystem","Stats", "Statistics"],
