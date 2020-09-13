@@ -2,7 +2,7 @@
 	"perl"                    : "6.*",
 	"raku: "                  : "6.*",
 	"name"                    : "System::Stats::DISKUsage",
-    "version"                 : "1.0.0",
+    "version"                 : "1.0.1",
     "provides"                : {
     "System::Stats::DISKUsage" : "lib/System/Stats/DISKUsage.rakumod"},
     "description"             : "Provides Disk Usage Stats",
